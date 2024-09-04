@@ -142,7 +142,7 @@ sun.data.materials.append(
 )
 
 # add other smaller star emissions
-# the coordinate values will be hardcoded to fit each image
+# the coordinate values will be hardcoded to fit each background image
 star = create_sphere_at_pos(1.5, 103.75, 31.996,0, "Star")
 star.data.materials.append(
     create_emission_shader(
